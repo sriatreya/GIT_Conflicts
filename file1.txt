@@ -17,13 +17,16 @@
   <body>
     <h1>Conflicts</h1>
     <section>
-      <input type="text" placeholder="Size"/>
-      <a href="#">Generate Conflicts</a>
-      <pre>
+      <input type="text" placeholder="Size" id="magic-square-size" />
+      <a href="#" id="magic-square-generate-button">Generate Conflicts</a>
+      <pre id="magic-square-display">
       </pre>
       <div id="validation"></div>
     </section>
 
+    <script src="js/magic_square/utils.js"></script>
+    <script src="js/magic_square/square.js"></script>
+    <script src="js/magic_square/validator.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
